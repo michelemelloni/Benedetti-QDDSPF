@@ -1,0 +1,23 @@
+     A                                      REF(DIZMIGNI01)
+     * ================================================================ *
+     *  Dettaglio lavori per foglio elettronico                         *
+     *  Cepro5f0                                                        *
+     * ================================================================ *
+     A          R CEPRO5
+      *
+     A            A5PRO0    R               COLHDG('Progetto . . . ..')
+     A            A5FI10    R
+     A            A5DTI0    R               COLHDG('Data Inserimento.')
+     A            A5FI20    R
+     A            A5DTS0    R               COLHDG('Data scadenza ...')
+     A            A5FI30    R
+     A            A5AZI0    R               COLHDG('Azione progetto .')
+     A            A5FI40    R
+     A            A5SEQ0    R               COLHDG('Sequenza azione .')
+     A            A5FI50    R
+     A            A5DES0    R               COLHDG('Descrizione .....')
+     A            A5FI60    R
+     A            A5PRP0    R               COLHDG('Proprietà .......')
+     A            A5FI70    R
+     A            A5OPE0    R               COLHDG('Operatore .......')
+      *

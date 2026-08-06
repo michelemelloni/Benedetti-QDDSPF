@@ -1,0 +1,17 @@
+     A                                      REF(DIZMIGNI01)
+     A          R CEPRO6
+     * ================================================================ *
+     *  Utenti assegnati al progetto                                    *
+     *  CEPRO6F0                                                        *
+     * ================================================================ *
+     A            A6STX0    R               COLHDG('Stato ...........')
+     A            A6USE0    R               COLHDG('Utente ..........')
+     A            A6GRX0    R               COLHDG('gg.  variazione .')
+     A            A6MSX0    R               COLHDG('mm.  variazione .')
+     A            A6SCX0    R               COLHDG('ss.  variazione .')
+     A            A6ANX0    R               COLHDG('aa.  variazione .')
+     A            A6NRX0    R               COLHDG('Numero Azione ...')
+     A            A6ORX0    R               COLHDG('Ora Variazione...')
+     *
+     A            A6PRG0    R               COLHDG('Cod.progetto.....')
+     A            A6NOM0    R               COLHDG('Nominativo utente')

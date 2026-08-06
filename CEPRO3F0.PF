@@ -1,0 +1,57 @@
+      * ================================================================ *
+      *  Rapporto di lavoro                                              *
+      *  CEPRO3F0                                                        *
+      * ================================================================ *
+     A                                      REF(DIZMIGNI01)
+     A          R CEPRO3
+      *
+     A            A3STX0    R               COLHDG('Stato ...........')
+     A            A3USE0    R               COLHDG('Utente ..........')
+     A            A3GRX0    R               COLHDG('gg.  variazione .')
+     A            A3MSX0    R               COLHDG('mm.  variazione .')
+     A            A3SCX0    R               COLHDG('ss.  variazione .')
+     A            A3ANX0    R               COLHDG('aa.  variazione .')
+     A            A3NRX0    R               COLHDG('Numero Azione ...')
+     A            A3ORX0    R               COLHDG('Ora Variazione...')
+      *
+     A            A3SCR0    R               COLHDG('Secolo rapporto  ')
+     A            A3ANR0    R               COLHDG('Anno   rapporto  ')
+     A            A3MER0    R               COLHDG('Mese   rapporto  ')
+     A            A3GIR0    R               COLHDG('Giorno rapporto  ')
+     A            A3NUR0    R               COLHDG('Numero rapporto  ')
+     A            A3PRG0    R               COLHDG('Cod.progetto.....')
+     A            A3OPE0    R               COLHDG('Operatore .......')
+     A            A3LIS0    R               COLHDG('Libreria sorgente')
+     A            A3ARS0    R               COLHDG('Archivio sorgente')
+     A            A3MBR0    R               COLHDG('Membro   sorgente')
+     A            A3TIS0    R               COLHDG('Tipo sorgente    ')
+     A            A3LIO0    R               COLHDG('Libreria oggetto ')
+     A            A3OBJ0    R               COLHDG('Nome oggetto ....')
+     A            A3ORI0    R               COLHDG('Ore min.inizio ..')
+     A            A3ORF0    R               COLHDG('Ore min.fine   ..')
+      *
+     A            A3D010    R               COLHDG('Descriz. lav. 01.')
+     A            A3D020    R               COLHDG('Descriz. lav. 02.')
+     A            A3D030    R               COLHDG('Descriz. lav. 03.')
+     A            A3D040    R               COLHDG('Descriz. lav. 04.')
+     A            A3D050    R               COLHDG('Descriz. lav. 05.')
+     A            A3D060        60A         COLHDG('Descriz. lav. 06.')
+     A            A3D070        60A         COLHDG('Descriz. lav. 07.')
+     A            A3D080        60A         COLHDG('Descriz. lav. 08.')
+      *
+     A            A3TIL0    R               COLHDG('Tipo lavoro .....')
+      *
+     A            A3F010    R               COLHDG('Minuti lavoro 1..')
+     A            A3F020    R               COLHDG('Minuti lavoro 2..')
+     A            A3F030    R               COLHDG('Flag 03 .........')
+     A            A3F040    R               COLHDG('Flag 04 .........')
+     A            A3F050    R               COLHDG('Flag 05 .........')
+     A            A3F060    R               COLHDG('Raggruppamento 1.')
+     A            A3F070    R               COLHDG('Flag 07 .........')
+     A            A3F080    R               COLHDG('Flag 08 .........')
+     A            A3F090    R               COLHDG('Flag 09 .........')
+     A            A3F100    R               COLHDG('Flag 10 .........')
+     A            A3D090        60A         COLHDG('Descriz. lav. 09.')
+     A            A3D100        60A         COLHDG('Descriz. lav. 10.')
+     A            A3RAZ0         4S 0       COLHDG('Riferimen. azione')
+     A            A3RSQ0         4S 0       COLHDG('Rif.azione/sequen')

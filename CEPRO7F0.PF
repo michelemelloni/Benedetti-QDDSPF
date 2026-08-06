@@ -1,0 +1,35 @@
+     A                                      REF(DIZMIGNI07)
+     A          R CEPRO7
+     * =============================================================== *
+     *  TABELLA       : CEPRO7F0                                     *
+     *  DESCRIZIONE   : Allegati ai progetti                          *
+     *  PREFISSO      : NP0                                          *
+     * =============================================================== *
+     A            A7STAX0   R               TEXT('Stato ..............')
+     A            A7IMUT0   R               TEXT('Immissione utente...')
+     A            A7IMDA0   R               TEXT('Immissione data ....')
+     A            A7IMOR0   R               TEXT('Immissione ora .....')
+     A            A7IMPG0   R               TEXT('Immissione programma')
+     A            A7AGUT0   R               TEXT('Aggiornam. utente...')
+     A            A7AGDA0   R               TEXT('Aggiorna,. data ....')
+     A            A7AGOR0   R               TEXT('Aggiornam. ora .....')
+     A            A7AGPG0   R               TEXT('Aggiornam. programma')
+      *
+     A            A7TIPO0   R               TEXT('Tipo record .....')
+     A            A7PROG0   R               TEXT('Cod.progetto.....')
+     A            A7AZIO0   R               TEXT('Azione progetto .')
+     A            A7RAPP0   R               TEXT('Nr. rapportino ..')
+     A            A7SEQU0   R               TEXT('Sequenza link ...')
+     A            A7LINK0   R               TEXT('Link allegato ...')
+      *
+     A            A7FL010   R               TEXT('Flag 01 .........')
+     A            A7FL020   R               TEXT('Flag 02 .........')
+     A            A7FL030   R               TEXT('Flag 03 .........')
+     A            A7FL040   R               TEXT('Flag 04 .........')
+     A            A7FL050   R               TEXT('Flag 05 .........')
+     A            A7FL060   R               TEXT('Flag 06 .........')
+     A            A7FL070   R               TEXT('Flag 07 .........')
+     A            A7FL080   R               TEXT('Flag 08 .........')
+     A            A7FL090   R               TEXT('Flag 09 .........')
+     A            A7FL100   R               TEXT('Flag 10 .........')
+     A            A7NOME0      100A         TEXT('Nome allegato ...')

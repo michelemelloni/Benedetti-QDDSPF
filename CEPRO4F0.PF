@@ -1,0 +1,36 @@
+     A                                      REF(DIZMIGNI01)
+     * ================================================================ *
+     *  Rapporto di lavoro                                              *
+     *  CEPRO4F0                                                        *
+     * ================================================================ *
+     A          R CEPRO4
+     *
+     A            A4STX0    R               COLHDG('Stato ...........')
+     A            A4USE0    R               COLHDG('Utente ..........')
+     A            A4GRX0    R               COLHDG('gg.  variazione .')
+     A            A4MSX0    R               COLHDG('mm.  variazione .')
+     A            A4SCX0    R               COLHDG('ss.  variazione .')
+     A            A4ANX0    R               COLHDG('aa.  variazione .')
+     A            A4NRX0    R               COLHDG('Numero Azione ...')
+     A            A4ORX0    R               COLHDG('Ora Variazione...')
+     *
+     A            A4PRG0    R               COLHDG('Cod.progetto.....')
+     A            A4AZI0    R               COLHDG('Azione progetto .')
+     A            A4SEQ0    R               COLHDG('Sequenza azione .')
+     A            A4DES0    R               COLHDG('Descrizione .....')
+     A            A4DTS0    R               COLHDG('Data scadenza ...')
+     A            A4DTI0    R               COLHDG('Data inizio esec.')
+     A            A4DTF0    R               COLHDG('Data fine   esec.')
+     A            A4OPE0    R               COLHDG('Operatore .......')
+      *
+     A            A4F010    R               COLHDG('Flag 01 .........')
+     A            A4F020    R               COLHDG('Flag 02 .........')
+     A            A4F030    R               COLHDG('Flag 03 .........')
+     A            A4F040    R               COLHDG('Flag 04 .........')
+     A            A4F050    R               COLHDG('Flag 05 .........')
+     A            A4F060    R               COLHDG('Flag 06 .........')
+     A            A4F070    R               COLHDG('Flag 07 .........')
+     A            A4F080    R               COLHDG('Flag 08 .........')
+     A            A4F090    R               COLHDG('Flag 09 .........')
+     A            A4F100    R               COLHDG('Flag 10 .........')
+     A            A4DTC0         8S 0       COLHDG('Data chiusura ...')

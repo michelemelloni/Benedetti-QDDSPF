@@ -1,0 +1,41 @@
+      * ================================================================ *
+      *  Rilascio progetto                                               *
+      *  CEPRO2F0                                                        *
+      * ================================================================ *
+     A                                      REF(DIZMIGNI01)
+     A          R CEPRO2
+      *
+     A            A2STX0    R               COLHDG('Stato ...........')
+     A            A2USE0    R               COLHDG('Utente ..........')
+     A            A2GRX0    R               COLHDG('gg.  variazione .')
+     A            A2MSX0    R               COLHDG('mm.  variazione .')
+     A            A2SCX0    R               COLHDG('ss.  variazione .')
+     A            A2ANX0    R               COLHDG('aa.  variazione .')
+     A            A2NRX0    R               COLHDG('Numero Azione ...')
+     A            A2ORX0    R               COLHDG('Ora Variazione...')
+      *
+     A            A2PRG0    R               COLHDG('Cod.progetto.....')
+      *
+     A            A2SCA0    R               COLHDG('Secolo Avviam....')
+     A            A2ANA0    R               COLHDG('Anno   Avviam....')
+     A            A2MEA0    R               COLHDG('Mese   Avviam....')
+     A            A2GIA0    R               COLHDG('Giorno Avviam....')
+      *
+     A            A2SCR0    R               COLHDG('Secolo rilascio..')
+     A            A2ANR0    R               COLHDG('Anno   rilascio..')
+     A            A2MER0    R               COLHDG('Mese   rilascio..')
+     A            A2GIR0    R               COLHDG('Giorno rilascio..')
+      *
+     A            A2TIR0    R               COLHDG('Tipo rilascio....')
+     A            A2AVA0    R               COLHDG('Avanzam. in % ...')
+      *
+     A            A2F010    R               COLHDG('Flag 01 .........')
+     A            A2F020    R               COLHDG('Flag 02 .........')
+     A            A2F030    R               COLHDG('Flag 03 .........')
+     A            A2F040    R               COLHDG('Flag 04 .........')
+     A            A2F050    R               COLHDG('Flag 05 .........')
+     A            A2F060    R               COLHDG('Flag 06 .........')
+     A            A2F070    R               COLHDG('Flag 07 .........')
+     A            A2F080    R               COLHDG('Flag 08 .........')
+     A            A2F090    R               COLHDG('Flag 09 .........')
+     A            A2F100    R               COLHDG('Flag 10 .........')
