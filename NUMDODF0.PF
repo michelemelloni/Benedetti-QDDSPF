@@ -1,0 +1,20 @@
+      ****************************************************************
+      *   TABELLA       : NUMDODF0                                   *
+      *   DESCRIZIONE   : Dettaglio Numeratori                       *
+      *   PREFISSO      : NUD                                        *
+      ****************************************************************
+     A          R NUMDOD
+      *
+     A            NUDSTX0        1A         COLHDG('Stato ..............')
+     A            NUDUTI0       10A         COLHDG('Utente Immissione...')
+     A            NUDDAI0         L         COLHDG('Data Immissione.....')
+     A            NUDORI0         T         COLHDG('Ora Immissione......')
+     A            NUDPGI0       10A         COLHDG('Programma Immissione')
+     A            NUDUTA0       10A         COLHDG('Utente Aggiornamento')
+     A            NUDDAA0         L         COLHDG('Data Aggiornamento..')
+     A            NUDORA0         T         COLHDG('Ora Aggiornamento...')
+     A            NUDPGA0       10A         COLHDG('Progra.Aggiornamento')
+      *
+     A            NUDINT0        3S 0       COLHDG('Numero interno .....')
+     A            NUDANN0        4S 0       COLHDG('Anno numeratore.....')
+     A            NUDNUM0        9S 0       COLHDG('Numero .............')

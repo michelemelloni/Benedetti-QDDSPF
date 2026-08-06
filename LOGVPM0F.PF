@@ -1,0 +1,26 @@
+     A** LOGVPM0F - LOG APPLICATIVO VPM
+     A*
+     A                                      REF(DIZVPM)
+     A          R LOG00                     TEXT('LOG APPLIC.VPM')
+     A*
+     A* TIPO LOG: 001 = APERTURA ORDINI ARCHIVIATI
+     A*
+     A*
+     A*
+     A            ANN076    R               REFFLD(ANNULL)
+     A            AZI076    R               REFFLD(AZIONE)
+     A            LLTIPO         2          TEXT('TIPO LOG')
+     A            LLDATA         8S 0       TEXT('DATA')
+     A            LLORA          6S 0       TEXT('ORA')
+     A            LLTERM        10          TEXT('NOME TERMINALE')
+     A            LLUSER        10          TEXT('NOME UTENTE')
+     A            LLJOB          6S 0       TEXT('NUMERO LAVORO')
+     A            LLANNL         4S 0       TEXT('ANNO ORDINE')
+     A            LLORDL         5S 0       TEXT('NUM. ORDINE')
+     A            LLPROL         2S 0       TEXT('PROGR. ORDINE')
+     A            LLDAAN         8S 0       TEXT('DATA ARCHIVIAZIONE')
+     A            LLPRGM        10          TEXT('PROGRAMMA')
+     A            LLFLAG        10          TEXT('FLAG RECORD')
+     A            LLTEXT       300          TEXT('TESTO AGGIUNTIVO')
+     A*
+     A          K LLDATA

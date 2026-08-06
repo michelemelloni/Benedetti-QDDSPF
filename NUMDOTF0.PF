@@ -1,0 +1,22 @@
+      ****************************************************************
+      *   TABELLA       : NUMDOTF0                                   *
+      *   DESCRIZIONE   : Testata Numeratori                         *
+      *   PREFISSO      : NUT                                        *
+      ****************************************************************
+     A          R NUMDOT
+      *
+     A            NUTSTX0        1A         COLHDG('Stato ..............')
+     A            NUTUTI0       10A         COLHDG('Utente Immissione...')
+     A            NUTDAI0         L         COLHDG('Data Immissione.....')
+     A            NUTORI0         T         COLHDG('Ora Immissione......')
+     A            NUTPGI0       10A         COLHDG('Programma Immissione')
+     A            NUTUTA0       10A         COLHDG('Utente Aggiornamento')
+     A            NUTDAA0         L         COLHDG('Data Aggiornamento..')
+     A            NUTORA0         T         COLHDG('Ora Aggiornamento...')
+     A            NUTPGA0       10A         COLHDG('Progra.Aggiornamento')
+      *
+     A            NUTMAG0        2A         COLHDG('Codice Magazzino....')
+     A            NUTCOD0        3A         COLHDG('Codice Numeratore...')
+     A            NUTINT0        3S 0       COLHDG('Numero interno .....')
+     A            NUTDAN0        9S 0       COLHDG('Da numero ..........')
+     A            NUTANU0        9S 0       COLHDG('A numero ...........')
