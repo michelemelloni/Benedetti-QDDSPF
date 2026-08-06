@@ -1,0 +1,34 @@
+      ****************************************************************
+      *   TABELLA       : BENWPIF0                                   *
+      *   DESCRIZIONE   : Mauro Benedetti Piano Produzione via web   *
+      *   PREFISSO      : WPIP                                       *
+      ****************************************************************
+     A          R BENWPI
+      *
+     A            WPIPSTX0       1A         COLHDG('Stato ..............')
+     A            WPIPUTI0      10A         COLHDG('Utente Immissione...')
+     A            WPIPDAI0        L         COLHDG('Data Immissione.....')
+     A            WPIPORI0        T         COLHDG('Ora Immissione......')
+     A            WPIPPGI0      10A         COLHDG('Programma Immissione')
+     A            WPIPUTA0      10A         COLHDG('Utente Aggiornamento')
+     A            WPIPDAA0        L         COLHDG('Data Aggiornamento..')
+     A            WPIPORA0        T         COLHDG('Ora Aggiornamento...')
+     A            WPIPPGA0      10A         COLHDG('Progra.Aggiornamento')
+      *
+     A            WPIPANN0       4S 0       COLHDG('Anno ordine ........')
+     A            WPIPNUM0       5S 0       COLHDG('Numero ordine ......')
+     A            WPIPSEQ0       2S 0       COLHDG('Numero sequenza ....')
+     A            WPIPDAC0       8S 0       COLHDG('Data Cons.Ordine ...')
+     A            WPIPDAP0       8S 0       COLHDG('Data Prod.Originale.')
+      *
+     A            WPIPMAC0       2A         COLHDG('Codice macchina ....')
+     A            WPIPSEO0       7S 0       COLHDG('Sequenza ordine ....')
+     A            WPIPSEW0       7S 0       COLHDG('Sequenza via web ...')
+     A            WPIPSEL0       2A         COLHDG('on=selezionato .....')
+     A            WPIPDAS0       8S 0       COLHDG('Data Prod.via Web ..')
+     *
+     A          K WPIPANN0
+     A          K WPIPNUM0
+     A          K WPIPSEQ0
+     A          K WPIPMAC0
+     A          K WPIPSEO0

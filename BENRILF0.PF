@@ -1,0 +1,40 @@
+      ****************************************************************
+      *   TABELLA       : BENRILF0                                   *
+      *   DESCRIZIONE   : Mauro Benedetti SpA Rilevazione dati macchine
+      *   PREFISSO      : RIMB                                       *
+      ****************************************************************
+     A          R BENRIL
+      *
+     A            RIMBSTX0       1A         COLHDG('Stato ..............')
+     A            RIMBUTI0      10A         COLHDG('Utente Immissione...')
+     A            RIMBDAI0        L         COLHDG('Data Immissione.....')
+     A            RIMBORI0        T         COLHDG('Ora Immissione......')
+     A            RIMBPGI0      10A         COLHDG('Programma Immissione')
+     A            RIMBUTA0      10A         COLHDG('Utente Aggiornamento')
+     A            RIMBDAA0        L         COLHDG('Data Aggiornamento..')
+     A            RIMBORA0        T         COLHDG('Ora Aggiornamento...')
+     A            RIMBPGA0      10A         COLHDG('Progra.Aggiornamento')
+      *
+     A            RIMBNUM0       9S 0       COLHDG('Numero sequenziale..')
+     A            RIMBSEQ0       4S 0       COLHDG('Numero progressivo..')
+     A            RIMBTIP0       3A         COLHDG('Tipo rilevazione....')
+     A            RIMBDAC0        L         COLHDG('Data Rilevazione....')
+     A            RIMBORC0        T         COLHDG('Ora Rilevazione.....')
+     A            RIMBMAC0       2A         COLHDG('Macchina ...........')
+     A            RIMBANN0       4S 0       COLHDG('Anno ordine ........')
+     A            RIMBNUO0       5S 0       COLHDG('Numero Ordine ......')
+     A            RIMBPRO0       2S 0       COLHDG('Progressivo Ordine .')
+     A            RIMBNUC0       2S 0       COLHDG('Numero Colori ......')
+     A            RIMBUNM0       2A         COLHDG('Unità di misura ....')
+     A            RIMBVAL0      15S 5       COLHDG('Valore rilevato.....')
+     A            RIMBQCA0       2A         COLHDG('Qualità Cartone ....')
+     A            RIMBOP10       5A         COLHDG('Matricola operatore1')
+     A            RIMBOP20       5A         COLHDG('Matricola operatore2')
+     A            RIMBOP30       5A         COLHDG('Matricola operatore3')
+     A            RIMBNC10       3A         COLHDG('Nota da causale 1 ..')
+     A            RIMBNC20       3A         COLHDG('Nota da causale 2 ..')
+     A            RIMBNC30       3A         COLHDG('Nota da causale 3 ..')
+     A            RIMBNC40       3A         COLHDG('Nota da causale 4 ..')
+     A            RIMBNL10     600A         COLHDG('Nota libera 1 ......')
+     A            RIMBSTA0       2A         COLHDG('Stato ..............')
+     A            RIMBRIF0       9S 0       COLHDG('Riferimento Fermi...')

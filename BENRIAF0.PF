@@ -1,0 +1,35 @@
+      ****************************************************************
+      *   TABELLA       : BENRIAF0                                   *
+      *   DESCRIZIONE   : Mauro Benedetti SpA Rilevazione dati macchine
+      *   PREFISSO      : RIAB                                       *
+      ****************************************************************
+     A          R BENRIA
+      *
+     A            RIABSTX0       1A         COLHDG('Stato ..............')
+     A            RIABUTI0      10A         COLHDG('Utente Immissione...')
+     A            RIABDAI0        L         COLHDG('Data Immissione.....')
+     A            RIABORI0        T         COLHDG('Ora Immissione......')
+     A            RIABPGI0      10A         COLHDG('Programma Immissione')
+     A            RIABUTA0      10A         COLHDG('Utente Aggiornamento')
+     A            RIABDAA0        L         COLHDG('Data Aggiornamento..')
+     A            RIABORA0        T         COLHDG('Ora Aggiornamento...')
+     A            RIABPGA0      10A         COLHDG('Progra.Aggiornamento')
+      *
+     A            RIABNUM0       9S 0       COLHDG('Numero sequenziale..')
+     A            RIABSEQ0       4S 0       COLHDG('Numero progressivo..')
+     A            RIABSEA0       4S 0       COLHDG('Numero progressivo..')
+     A            RIABTIP0       3A         COLHDG('Tipo rilevazione....')
+     A            RIABDAC0        L         COLHDG('Data Rilevazione....')
+     A            RIABORC0        T         COLHDG('Ora Rilevazione.....')
+     A            RIABNC10       3A         COLHDG('Nota da causale 1 ..')
+     A            RIABNC20       3A         COLHDG('Nota da causale 2 ..')
+     A            RIABNC30       3A         COLHDG('Nota da causale 3 ..')
+     A            RIABNC40       3A         COLHDG('Nota da causale 4 ..')
+     A            RIABNL10     600A         COLHDG('Nota libera 1 ......')
+     A            RIABSTA0       2A         COLHDG('Stato ..............')
+     A            RIABRC10      15A         COLHDG('Ricambio 1 .........')
+     A            RIABRC20      15A         COLHDG('Ricambio 2 .........')
+     A            RIABRC30      15A         COLHDG('Ricambio 3 .........')
+     A            RIABRC40      15A         COLHDG('Ricambio 4 .........')
+     A            RIABRC50      15A         COLHDG('Ricambio 5 .........')
+     A            RIABRC60      15A         COLHDG('Ricambio 6 .........')

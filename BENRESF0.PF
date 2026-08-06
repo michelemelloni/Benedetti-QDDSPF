@@ -1,0 +1,28 @@
+      ****************************************************************
+      *   TABELLA       : BENRESF0                                   *
+      *   DESCRIZIONE   : Rete Mauro Benedetti SpA Porte Switch      *
+      *   PREFISSO      : MBS                                        *
+      ****************************************************************
+     A          R BENRES
+      *
+     A            MBSSTX0        1A         COLHDG('Stato ..............')
+     A            MBSUTI0       10A         COLHDG('Utente Immissione...')
+     A            MBSDAI0         L         COLHDG('Data Immissione.....')
+     A            MBSORI0         T         COLHDG('Ora Immissione......')
+     A            MBSPGI0       10A         COLHDG('Programma Immissione')
+     A            MBSUTA0       10A         COLHDG('Utente Aggiornamento')
+     A            MBSDAA0         L         COLHDG('Data Aggiornamento..')
+     A            MBSORA0         T         COLHDG('Ora Aggiornamento...')
+     A            MBSPGA0       10A         COLHDG('Progra.Aggiornamento')
+      *
+     A            MBSATT0        1S 0       COLHDG('1=Attivo 0=non attiv')
+     A            MBSNUM0        9S 0       COLHDG('Numero sequenziale..')
+     A            MBSSEQ0        4S 0       COLHDG('Numero progressivo .')
+     A            MBSTIP0        3A         COLHDG('Tipo riga ..........')
+     A            MBSPOR0        3A         COLHDG('Numero Porta .......')
+     A            MBSDEP0      100A         COLHDG('Descrizione Porta...')
+     A            MBSIPD0       15A         COLHDG('Indirizzo IPv4 Dest.')
+     A            MBSIP60       39A         COLHDG('Indirizzo IPv6 Dest.')
+     A            MBSPOD0        3A         COLHDG('Numero Porta Destin.')
+     A            MBSVED0        5S 0       COLHDG('Velocità Destinazio.')
+     A            MBSNOT0      200A         COLHDG('Note ...............')

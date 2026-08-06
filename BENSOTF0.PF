@@ -1,0 +1,47 @@
+      ****************************************************************
+      *   TABELLA       : BENSOTF0                                   *
+      *   DESCRIZIONE   : Asset software Testata Mauro Benedetti SpA *
+      *   PREFISSO      : MBS                                        *
+      ****************************************************************
+     A          R BENSOT
+      *
+     A            MBSSTX0        1A         COLHDG('Stato ..............')
+     A            MBSUTI0       10A         COLHDG('Utente Immissione...')
+     A            MBSDAI0         L         COLHDG('Data Immissione.....')
+     A            MBSORI0         T         COLHDG('Ora Immissione......')
+     A            MBSPGI0       10A         COLHDG('Programma Immissione')
+     A            MBSUTA0       10A         COLHDG('Utente Aggiornamento')
+     A            MBSDAA0         L         COLHDG('Data Aggiornamento..')
+     A            MBSORA0         T         COLHDG('Ora Aggiornamento...')
+     A            MBSPGA0       10A         COLHDG('Progra.Aggiornamento')
+      *
+     A            MBSATT0        1S 0       COLHDG('1=Attivo 0=non attiv')
+     A            MBSNUM0        9S 0       COLHDG('Numero sequenziale..')
+     A            MBSFOR0        6A         COLHDG('Codice fornitore....')
+     A            MBSDES0      500A         COLHDG('Contenuto sintetico.')
+     A            MBSREF0      200A         COLHDG('Referenti...........')
+      *
+     A            MBSTIP0        1A         COLHDG('A=asset, O=offerta..')
+     A                                      TEXT('A=asset, O=offerta..')
+     A            MBSRAG0      100A         COLHDG('Rag.Soc.+ indirizzo.')
+     A                                      TEXT('Rag.Soc.+ indirizzo.')
+     A            MBSAR10        3A         COLHDG('Argomento 1.........')
+     A                                      TEXT('Argomento 1.........')
+     A            MBSAR20        3A         COLHDG('Argomento 2.........')
+     A                                      TEXT('Argomento 2.........')
+     A            MBSAR30        3A         COLHDG('Argomento 3.........')
+     A                                      TEXT('Argomento 3.........')
+     A            MBSAR40        3A         COLHDG('Argomento 4.........')
+     A                                      TEXT('Argomento 4.........')
+     A            MBSAR50        3A         COLHDG('Argomento 5.........')
+     A                                      TEXT('Argomento 5.........')
+     A            MBSAR60        3A         COLHDG('Argomento 6.........')
+     A                                      TEXT('Argomento 6.........')
+     A            MBSAR70        3A         COLHDG('Argomento 7.........')
+     A                                      TEXT('Argomento 7.........')
+     A            MBSAR80        3A         COLHDG('Argomento 8.........')
+     A                                      TEXT('Argomento 8.........')
+     A            MBSAR90        3A         COLHDG('Argomento 9.........')
+     A                                      TEXT('Argomento 9.........')
+     A            MBSAR010       3A         COLHDG('Argomento 10........')
+     A                                      TEXT('Argomento 10........')

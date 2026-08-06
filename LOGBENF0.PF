@@ -1,0 +1,32 @@
+      ****************************************************************
+      *   TABELLA       : LOGBENF0                                   *
+      *   DESCRIZIONE   : Log Mauro Benedetti SpA                    *
+      *   PREFISSO      : LMB                                        *
+      ****************************************************************
+     A          R LOGBEN
+     *
+     A            LMBSTX0        1A         COLHDG('Stato ..............')
+     A            LMBUTI0       10A         COLHDG('Utente Immissione...')
+     A            LMBDAI0         L         COLHDG('Data Immissione.....')
+     A            LMBORI0         T         COLHDG('Ora Immissione......')
+     A            LMBPGI0       10A         COLHDG('Programma Immissione')
+     A            LMBUTA0       10A         COLHDG('Utente Aggiornamento')
+     A            LMBDAA0         L         COLHDG('Data Aggiornamento..')
+     A            LMBORA0         T         COLHDG('Ora Aggiornamento...')
+     A            LMBPGA0       10A         COLHDG('Progra.Aggiornamento')
+     *
+     A            LMBPGE0       10A         COLHDG('Programma in errore ')
+     A            LMBRGE0       10A         COLHDG('Riga in errore      ')
+     A            LMBISE0      300A         COLHDG('Istruzione in errore')
+     A            LMBDET0      300A         COLHDG('Uteriori dettagli   ')
+     *
+     A            LMBF010        2A         COLHDG('Flag 01 .........')
+     A            LMBF020        2A         COLHDG('Flag 02 .........')
+     A            LMBF030        2A         COLHDG('Flag 03 .........')
+     A            LMBF040        2A         COLHDG('Flag 04 .........')
+     A            LMBF050       10A         COLHDG('Flag 05 .........')
+     A            LMBF060       10A         COLHDG('Flag 06 .........')
+     A            LMBF070       10A         COLHDG('Flag 07 .........')
+     A            LMBF080       10A         COLHDG('Flag 08 .........')
+     A            LMBF090       10A         COLHDG('Flag 09 .........')
+     A            LMBF100       10A         COLHDG('Flag 10 .........')

@@ -1,0 +1,26 @@
+      ****************************************************************
+      *   TABELLA       : BENRECF0                                   *
+      *   DESCRIZIONE   : Rete Mauro Benedetti SpA Contatori         *
+      *   PREFISSO      : MBC                                        *
+      ****************************************************************
+     A          R BENREC
+      *
+     A            MBCSTX0        1A         COLHDG('Stato ..............')
+     A            MBCUTI0       10A         COLHDG('Utente Immissione...')
+     A            MBCDAI0         L         COLHDG('Data Immissione.....')
+     A            MBCORI0         T         COLHDG('Ora Immissione......')
+     A            MBCPGI0       10A         COLHDG('Programma Immissione')
+     A            MBCUTA0       10A         COLHDG('Utente Aggiornamento')
+     A            MBCDAA0         L         COLHDG('Data Aggiornamento..')
+     A            MBCORA0         T         COLHDG('Ora Aggiornamento...')
+     A            MBCPGA0       10A         COLHDG('Progra.Aggiornamento')
+      *
+     A            MBCATT0        1S 0       COLHDG('1=Attivo 0=non attiv')
+     A            MBCNUM0        9S 0       COLHDG('Numero sequenziale..')
+     A            MBCSEQ0        4S 0       COLHDG('Numero progressivo .')
+     A            MBCTIP0        3A         COLHDG('Tipo riga ..........')
+     A            MBCDAC0         L         COLHDG('Data Conteggio .....')
+     A            MBCORC0         T         COLHDG('Ora Conteggio ......')
+     A            MBCUNM0        2A         COLHDG('Unità di misura ....')
+     A            MBCQTA0       15S 5       COLHDG('Quantità ...........')
+     A            MBCTIS0        1A         COLHDG('Se stamp.1=BN 2=Col.')

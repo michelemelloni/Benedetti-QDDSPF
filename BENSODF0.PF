@@ -1,0 +1,35 @@
+      ****************************************************************
+      *   TABELLA       : BENSODF0                                   *
+      *   DESCRIZIONE   : Asset software Dettaglio Mauro Benedetti SpA *
+      *   PREFISSO      : MBD                                        *
+      ****************************************************************
+     A          R BENSOD
+      *
+     A            MBDSTX0        1A         COLHDG('Stato ..............')
+     A            MBDUTI0       10A         COLHDG('Utente Immissione...')
+     A            MBDDAI0         L         COLHDG('Data Immissione.....')
+     A            MBDORI0         T         COLHDG('Ora Immissione......')
+     A            MBDPGI0       10A         COLHDG('Programma Immissione')
+     A            MBDUTA0       10A         COLHDG('Utente Aggiornamento')
+     A            MBDDAA0         L         COLHDG('Data Aggiornamento..')
+     A            MBDORA0         T         COLHDG('Ora Aggiornamento...')
+     A            MBDPGA0       10A         COLHDG('Progra.Aggiornamento')
+      *
+     A            MBDNUM0        9S 0       COLHDG('Numero sequenziale..')
+     A            MBDINT0        3S 0       COLHDG('Numero interno......')
+     A            MBDDES0      200A         COLHDG('Descrizione.........')
+     A            MBDAPP0      400A         COLHDG('Appunti.............')
+     A            MBDDIN0         L         COLHDG('Data Inizio.........')
+     A            MBDDFI0         L         COLHDG('Data Fine...........')
+     A            MBDTIF0        3A         COLHDG('Tipo fatturazione...')
+     A            MBDRIN0        1A         COLHDG('Tipo rinnovo........')
+     A            MBDIMP0       13S 5       COLHDG('Importo Unitario....')
+     A            MBDUNM0        2A         COLHDG('Unità di misura ....')
+     A            MBDQTA0       11S 2       COLHDG('Quantità............')
+     A            MBDVAL0       11S 2       COLHDG('Valore totale.......')
+     A            MBDATT0        1S 0       COLHDG('1=Attivo 0=non attiv')
+     A            MBDGAL0        3S 0       COLHDG('Giorni per alert....')
+     A            MBDDUR0        4S 0       COLHDG('Mesi durata contratt')
+     A            MBDCON0       12A         COLHDG('Conto contabilità...')
+     A            MBDINA0        4S 0       COLHDG('N.interventi annuali')
+     A            MBDLNK0      100A         COLHDG('link ...............')

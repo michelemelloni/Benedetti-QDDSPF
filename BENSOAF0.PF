@@ -1,0 +1,25 @@
+     * =============================================================== *
+     *  TABELLA       : BENSOAF0                                     *
+     *  DESCRIZIONE   : Allegati agli Asset / Offerte                 *
+     *  PREFISSO      : MBA                                          *
+     * =============================================================== *
+     A          R BENSOA
+     *
+     A            MBASTX0        1A         COLHDG('Stato ..............')
+     A            MBAUTI0       10A         COLHDG('Utente Immissione...')
+     A            MBADAI0         L         COLHDG('Data Immissione.....')
+     A            MBAORI0         T         COLHDG('Ora Immissione......')
+     A            MBAPGI0       10A         COLHDG('Programma Immissione')
+     A            MBAUTA0       10A         COLHDG('Utente Aggiornamento')
+     A            MBADAA0         L         COLHDG('Data Aggiornamento..')
+     A            MBAORA0         T         COLHDG('Ora Aggiornamento...')
+     A            MBAPGA0       10A         COLHDG('Progra.Aggiornamento')
+     *
+     A            MBATIP0        1A         COLHDG('T=testata D=dettagl.')
+     A                                      TEXT('T=testata D=dettagl.')
+     A            MBANUM0        9S 0       COLHDG('Numero sequenziale..')
+     A            MBASEQ0        4S 0       COLHDG('Sequenza ...........')
+     A            MBALNK0      200A         COLHDG('Link allegato ......')
+     A            MBANOM0      100A         COLHDG('Nome allegato ......')
+     A            MBAFOR0        6A         COLHDG('Codice Fornitore....')
+     A                                      TEXT('Codice Fornitore....')

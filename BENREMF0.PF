@@ -1,0 +1,27 @@
+      ****************************************************************
+      *   TABELLA       : BENREMF0                                   *
+      *   DESCRIZIONE   : Rete Mauro Benedetti SpA Manutenzione      *
+      *   PREFISSO      : MBM                                        *
+      ****************************************************************
+     A          R BENREM
+      *
+     A            MBMSTX0        1A         COLHDG('Stato ..............')
+     A            MBMUTI0       10A         COLHDG('Utente Immissione...')
+     A            MBMDAI0         L         COLHDG('Data Immissione.....')
+     A            MBMORI0         T         COLHDG('Ora Immissione......')
+     A            MBMPGI0       10A         COLHDG('Programma Immissione')
+     A            MBMUTA0       10A         COLHDG('Utente Aggiornamento')
+     A            MBMDAA0         L         COLHDG('Data Aggiornamento..')
+     A            MBMORA0         T         COLHDG('Ora Aggiornamento...')
+     A            MBMPGA0       10A         COLHDG('Progra.Aggiornamento')
+      *
+     A            MBMATT0        1S 0       COLHDG('1=Attivo 0=non attiv')
+     A            MBMNUM0        9S 0       COLHDG('Numero sequenziale..')
+     A            MBMSEQ0        4S 0       COLHDG('Numero progressivo .')
+     A            MBMTIP0        3A         COLHDG('Tipo riga ..........')
+     A            MBMDES0      100A         COLHDG('Descrizione Manuale.')
+     A            MBMDAC0         L         COLHDG('Data Conteggio .....')
+     A            MBMORC0         T         COLHDG('Ora Conteggio ......')
+     A            MBMUNM0        2A         COLHDG('Unità di misura ....')
+     A            MBMQTA0       15S 5       COLHDG('Quantità ...........')
+     A            MBMTIS0        1A         COLHDG('Se stamp.1=BN 2=Col.')
