@@ -1,0 +1,40 @@
+     A                                      REF(DIZMIGNI02)
+     **********************************************************************
+     *  ARCHIVIO      : ANAUS3F0                                        *
+     *  DESCRIZIONE   : Controllo procedure per utenti.                 *
+     *  PREFISSO      : AN5                                             *
+     **********************************************************************
+     A          R ANAUS3
+     *
+     A            AN5STX0   R               TEXT('Stato ..............')
+     A            AN5USX0   R               TEXT('Utente    immissione')
+     A            AN5DAX0   R               TEXT('Data      immissione')
+     A            AN5ORX0   R               TEXT('Ora       immissione')
+     A            AN5CAZ0   R               TEXT('Azione    immissione')
+     A            AN5PGI0   R               TEXT('Programma immissione')
+     A            AN5USA0   R               TEXT('Utente aggiornamento')
+     A            AN5DAA0   R               TEXT('Data   aggiornamento')
+     A            AN5ORA0   R               TEXT('Ora    aggiornamento')
+     A            AN5CAV0   R               TEXT('Azione aggiornamento')
+     A            AN5PGV0   R               TEXT('Progra.aggiornamento')
+      *
+     A            AN5UTE0   R               TEXT('Utente AS/400 ......')
+     A            AN5PGM0   R               TEXT('Programma ..........')
+     A            AN5FLG0   R               TEXT('SI / NO ............')
+      *
+     A            AN5F010   R               TEXT('Flag 01 ............')
+     A            AN5F020   R               TEXT('Flag 02 ............')
+     A            AN5F030   R               TEXT('Flag 03 ............')
+     A            AN5F040   R               TEXT('Flag 04 ............')
+     A            AN5F050   R               TEXT('Flag 05 ............')
+     A            AN5F060   R               TEXT('Flag 06 ............')
+     A            AN5F070   R               TEXT('Flag 07 Aut.Blocchi.')
+      *                                          Pos. 1-2 Gest.blocco P1
+      *                                          Pos. 3-4 Gest.blocco P2
+      *                                          Pos. 5-6 Gest.blocco P3
+      *                                          Pos. 7-8 Gest.blocco PI
+      *                                          Pos.9-10 Vis.Mdc (SI/NO)
+     A            AN5F080   R               TEXT('Flag 08 Aut.Blocchi.')
+      *                                          Pos. 1-2 Gest.blocco PM margine < 1 euro
+     A            AN5F090   R               TEXT('Flag 09 ............')
+     A            AN5F100   R               TEXT('Flag 10 ............')

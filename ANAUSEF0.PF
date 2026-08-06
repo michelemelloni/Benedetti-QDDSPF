@@ -1,0 +1,56 @@
+     A                                      REF(DIZMIGNI)
+      ****************************************************************
+      *   TABELLA       : ANAUSEF0                                   *
+      *   DESCRIZIONE   : Anagrafico Utenti                          *
+      *   PREFISSO      : BT                                         *
+      ****************************************************************
+     A          R ANAUSE
+      *
+     A            BTSTX0    R               COLHDG('Stato ...........')
+     A            BTUSX0    R               COLHDG('Utente ..........')
+     A            BTSCX0    R               COLHDG('Sec. variazione .')
+     A            BTANX0    R               COLHDG('aa.  variazione .')
+     A            BTMSX0    R               COLHDG('mm.  variazione .')
+     A            BTGRX0    R               COLHDG('gg.  variazione .')
+     A            BTORX0    R               COLHDG('Ora agg.to ......')
+     A            BTNRX0    R               COLHDG('Numero Azione ...')
+      *
+     A            BTUSE0    R               COLHDG('Utente ..........')
+     A            BTNOM0    R               COLHDG('Nominativo ......')
+     A            BTPSW0    R               COLHDG('Password ........')
+     A            BTCLA0    R               COLHDG('Classe utente ...')
+      *                                     01. Direttore commerciale
+      *                                     02. Capo dipartimento
+      *                                     03. Ispettore/Capo distretto
+      *                                     04. Agente
+     A            BTUFF0    R               COLHDG('Ufficio .........')
+     A            BTCCO0    R               COLHDG('Centro di costo..')
+     A            BTLVR0    R               COLHDG('Livello respons..')
+      *                                     Blanks.  Nessuno
+      *                                          1.  Livello minimo
+      *                                          2.  Livello medio
+      *                                          3.  Livello Massimo
+     A            BTAGE0    R               COLHDG('Codice agente    ')
+     A            BTISP0    R               COLHDG('Codice Ispettore ')
+     A            BTDIP0    R               COLHDG('Codice Dipartim. ')
+      *
+     A            BTNT10    R               COLHDG('Telefono ufficio ')
+     A            BTNT20    R               COLHDG('Telefono cellul. ')
+     A            BTNT30    R               COLHDG('Telefono casa    ')
+      *
+     A            BTF010    R               COLHDG('SI=Aut.ord.commer')
+     A            BTF020    R               COLHDG('SI=Aut.ordini M.P')
+     A            BTF030    R               COLHDG('SI=Aut.vis.ril.pr')
+      *                                     SI=può vedere tutte le entrate del
+      *                                        suo centro di costo.
+      *                                     NO / blanks Non può vedere
+      *                                     TT=può vedere tutti.
+     A            BTF040    R               COLHDG('Area pal.in acce.')
+     A            BTF050    R               COLHDG('Area pal.in cern.')
+     A            BTF060    R               COLHDG('Area pal.in ripa.')
+     A            BTF070    R               COLHDG('Area pal.umidi...')
+     A            BTF080    R               COLHDG('Magazz.pallet....')
+     A            BTF090    R               COLHDG('NO - No prezzo mn')
+      *                                     per agenti in ins.ordini
+      *
+     A            BTF100    R               COLHDG('Flag 10 .........')
